@@ -45,7 +45,7 @@ namespace GAUL
         }
         void MoveUnit(Vector2Int index)
         {
-            if (selectedUnit != null)
+            if (selectedUnit != null && !units.ContainsKey(index))
             {
 
                 Vector2Int oldPos = selectedUnit.index;

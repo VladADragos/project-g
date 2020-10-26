@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbabbcc8d37569489d3ba4945d55e62, type: 3}
+  m_Name: Infantry
+  m_EditorClassIdentifier: 
+  name: Infantry
+  index: {x: 0, y: 2}
+  sprite: {fileID: 21300000, guid: 823b97ddf12f07a4199266669b69b40c, type: 3}
+  speed: 2
+  health: 6
+  attack: 2
